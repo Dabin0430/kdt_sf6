@@ -20,7 +20,18 @@ print(upper_case)
 print(lower_case)
 
 friends = "존 루나 제리"
-print(friends.split(" "))
+print(friends.split(" ")) #구분기호 - 공백문자
+
+a = friends.split(" ")#a는 리스트
+print(a)
+
+#입력받아서 리스트 만들기
+input_num = input("숫자 입력: ").split(" ")
+print(input_num)#문자가 저장됨
+numbers = [] #숫자를 저장할 리스트
+for i in input_num:
+    numbers.append(int(i))
+print(numbers)
 
 alpha = "a:b:c:d"
 print(alpha.split(":"))
@@ -31,3 +42,5 @@ print(email.split("@"))
 #replace()
 msg = "Hello Python"
 print(msg.replace("Python", "C++"))
+
+
