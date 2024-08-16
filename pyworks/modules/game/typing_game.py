@@ -26,7 +26,7 @@ end = time.time()
 et = end - start
 print(f'타자 시간: {et : .2f}초')
 print("프로그램 종료되었습니다")
-'''
+
 import random
 import time
 
@@ -51,4 +51,4 @@ while n < 11:
 end = time.time()  # 게임 종료 시간
 et = end - start
 print("프로그램이 종료되었습니다.")
-print(f'타자 시간: {et : .2f}초')'''
+print(f'타자 시간: {et : .2f}초')
