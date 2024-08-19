@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__) #Flask 클래스의 app 객체를 생성
 
 # 웹 페이지의 경로 설정 - 라우팅
-@app.route('/') #루트 경로 127.0.0.1/
+@app.route('/') #루트 경로 127.0.0.1:5000/
 def index(): # 모든 사이트의 첫페이지를 인덱스라고 함
     return '<h1>Hello Flask!</h1>'
 
