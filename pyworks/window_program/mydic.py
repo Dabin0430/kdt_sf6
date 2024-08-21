@@ -3,7 +3,7 @@ from tkinter import *
 def click():
     try:
         word = entry.get()
-        text.delete(0.0, END) #END - 최종입력지점
+        text.delete(0.0, END) #END - 최종입력지점 #앞0-행, 뒤0-열
         definition = dic[word]
     except KeyError:
         definition = "단어를 찾을 수 없습니다."
